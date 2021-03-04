@@ -63,6 +63,6 @@ ENV AIRFLOW_DATABASE_HOST="postgresql" \
 
 EXPOSE 8793
 
-USER 1001
+USER root
 ENTRYPOINT [ "/app-entrypoint.sh" ]
 CMD [ "/run.sh" ]
